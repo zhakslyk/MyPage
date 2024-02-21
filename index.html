@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      #kefe {
+        width: 20%;
+      }
+      .rounded-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        padding: 0.5em;
+        margin-bottom: 1em;
+      }
+      #kefe {
+        width: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col-lg-6 col-lg-8 mx-auto">
+          <img class="rounded-img" src="img.jpg" alt="Zhakslyk" />
+          <img class="rounded-img" id="kefe" src="img.jpg" alt="Zhakslyk" />
+          <h1 class="fw-light">Zhakslyk Zhumadilov</h1>
+          <p class="lead text-muted">
+            I am person. I am 19 years old, I live in Omsk and do programming.
+          </p>
+          <a
+            href="https://vk.com/zhasyona"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            VK
+          </a>
+          <a
+            href="https://web.telegram.org/k/#@nedorov"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
